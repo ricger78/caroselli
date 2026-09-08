@@ -1,0 +1,57 @@
+{
+  "name": "ca001-mindset-vs-metodo",
+  "slides": [
+    {
+      "type": "cover",
+      "topicLabel": "PERCHÉ NON FINISCI MAI NIENTE",
+      "hookText": "NON TI SERVE\nUN ALTRO CORSO.",
+      "subhead": "Il problema è più a monte di quanto pensi."
+    },
+    {
+      "type": "checklist",
+      "variant": "x",
+      "heading": "Ogni anno la stessa storia",
+      "items": [
+        "Gennaio: un **nuovo** corso comprato di slancio",
+        "Marzo: la motivazione è già scesa",
+        "Giugno: il progetto è fermo a metà",
+        "Dicembre: si ricomincia da capo, con un altro corso"
+      ]
+    },
+    {
+      "type": "content",
+      "bgImagePath": "ca001-mindset-vs-metodo-assets/loop.png",
+      "heading": "Stai correndo.\nMa resti fermo.",
+      "body": "Ogni corso ti dà __due settimane di carica__.\nPoi torni al punto di partenza."
+    },
+    {
+      "type": "content",
+      "heading": "Il problema non è il metodo",
+      "body": "Ti sei sempre chiesto **come** fare:\ncome scrivere il piano, trovare il tempo, ripartire dopo uno stop.\n\nMa il metodo cambia ogni volta.\n__Chi sei mentre lo applichi__, no."
+    },
+    {
+      "type": "content",
+      "bgImagePath": "ca001-mindset-vs-metodo-assets/identity.png",
+      "heading": "Al centro non c'è il metodo.",
+      "body": "C'è __chi diventi__ mentre lo applichi.\nQuello resta. Il resto cambia ogni volta."
+    },
+    {
+      "type": "compare",
+      "heading": "Due modi di provarci",
+      "left": { "title": "Chi insegue il metodo", "items": ["Cambia corso ogni due mesi", "Aspetta la motivazione giusta", "Molla appena si complica"] },
+      "right": { "title": "Chi allena il mindset", "items": ["Costruisce **sistemi**, non picchi di entusiasmo", "Agisce anche senza voglia", "Continua anche quando si complica"] }
+    },
+    {
+      "type": "quote",
+      "quoteText": "Il metodo cambia sempre.\n__Chi decidi di diventare__ resta.",
+      "attribution": "— Riccardo Geraci"
+    },
+    {
+      "type": "cta",
+      "ctaText": "Ti mando la guida che ti manca:\nallenare il **mindset**, non solo il metodo.",
+      "ctaAction": "Scrivi",
+      "ctaKeyword": "MINDSET",
+      "ctaReward": "Nei commenti o in DM: te lo giro subito."
+    }
+  ]
+}

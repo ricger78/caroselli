@@ -1,2 +1,6 @@
 node_modules/
-output/
+# slide renderizzate (rigenerabili con render.mjs): ignora le cartelle per-carosello,
+# ma tieni tracciati i JSON/caption in output/ e le cartelle *-assets (illustrazioni sorgente)
+output/*/
+!output/*-assets/
+!output/*-assets/**
