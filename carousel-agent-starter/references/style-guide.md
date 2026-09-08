@@ -118,3 +118,6 @@ Uno screenshot preso da una finestra larga entra nella slide rimpicciolito e div
 - [es. "le stat sempre come slide 5, mai prima"]
 - [es. "mai due checklist consecutive"]
 - [es. "l'evidenziatore solo su date e numeri, mai su parole di opinione"]
+- **Ogni slide ha almeno un tocco di colore brand** — una parola in gradiente (`**parola**`) su hook di copertina, heading, quote, non solo nel body. Resta una parola sola per concetto (regola "niente albero di Natale" invariata): il gradiente marca IL concetto chiave della slide, non decora.
+  ⚠️ **Eccezione**: sulle slide full-bleed con `bgImagePath` (foto a tutto schermo) il renderer forza `**parola**` a bianco pieno per leggibilità sopra la foto (CSS `.is-bg .grad`) — il markup non dà errore ma non si colora. Su queste slide il tocco di colore brand arriva da `topicLabel` (che è già blu accent) e dal bagliore arancio automatico di `textPos:"top"`, non dal gradiente nel testo.
+- Slide con `bgImagePath` e molto spazio vuoto sopra il soggetto della foto (es. soggetto in basso, sfondo scuro sopra) → usa `"textPos": "top"` invece di lasciare il vuoto: sposta heading/body nello spazio libero e attiva in automatico lo scrim con il bagliore radiale arancio brand (`is-bg.bg-top`), che è anche il "tocco di colore" per slide altrimenti troppo scure/vuote.

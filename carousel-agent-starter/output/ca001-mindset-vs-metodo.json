@@ -4,7 +4,7 @@
     {
       "type": "cover",
       "topicLabel": "PERCHÉ NON FINISCI MAI NIENTE",
-      "hookText": "NON TI SERVE\nUN ALTRO CORSO.",
+      "hookText": "NON TI SERVE\nUN ALTRO **CORSO**.",
       "subhead": "Il problema è più a monte di quanto pensi."
     },
     {
@@ -21,8 +21,9 @@
     {
       "type": "content",
       "bgImagePath": "ca001-mindset-vs-metodo-assets/loop.jpg",
-      "imgDim": 0.35,
-      "heading": "Stai correndo.\nMa resti fermo.",
+      "textPos": "top",
+      "topicLabel": "IL CICLO CHE NON SI ROMPE",
+      "heading": "Stai correndo.\nMa resti **fermo**.",
       "body": "Ogni corso ti dà __due settimane di carica__.\nPoi torni al punto di partenza."
     },
     {
@@ -34,7 +35,8 @@
       "type": "content",
       "bgImagePath": "ca001-mindset-vs-metodo-assets/identity.jpg",
       "imgDim": 0.45,
-      "heading": "Al centro non c'è il metodo.",
+      "topicLabel": "CHI DECIDI DI DIVENTARE",
+      "heading": "Al centro non c'è il **metodo**.",
       "body": "C'è __chi diventi__ mentre lo applichi.\nQuello resta. Il resto cambia ogni volta."
     },
     {
@@ -45,7 +47,7 @@
     },
     {
       "type": "quote",
-      "quoteText": "Il metodo cambia sempre.\n__Chi decidi di diventare__ resta.",
+      "quoteText": "Il metodo cambia sempre.\n__Chi decidi di diventare__ **resta**.",
       "attribution": "— Riccardo Geraci"
     },
     {
