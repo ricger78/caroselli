@@ -1,0 +1,21 @@
+{
+  "_doc": "Il tuo brand, in un file. Sostituisci i valori con i tuoi. NON cambiare i nomi delle chiavi e la struttura: il renderer li cerca così com'è. Dopo ogni modifica ri-renderizza un esempio per vedere l'effetto.",
+  "handle": "@iltuohandle",
+  "authorName": "Il Tuo Nome",
+  "colors": {
+    "_doc": "primary → secondary → accent è il gradiente del brand (titoli evidenziati, bottoni, pallini). accent colora anche frecce e callout. highlight è l'evidenziatore ==testo== (tienilo acceso e leggibile con testo scuro sopra). background/backgroundDark sono i fondi delle slide: il tema è scuro, restano scuri.",
+    "primary": "#FF3DBE",
+    "secondary": "#FF7A3D",
+    "accent": "#FFD23D",
+    "highlight": "#D6FF3D",
+    "note": "#3DFFB5",
+    "background": "#0F0F1A",
+    "backgroundDark": "#070710"
+  },
+  "typography": {
+    "_doc": "Font di default già inclusi nel kit (open source, embeddati: Plus Jakarta Sans, Space Grotesk, Caveat). Per usare i TUOI font: crea brand-kit/fonts.css con i tuoi @font-face in base64 e scrivi qui i nomi esatti delle famiglie. Vedi brand-kit/README.md.",
+    "display": "Plus Jakarta Sans",
+    "body": "Space Grotesk",
+    "handwritten": "Caveat"
+  }
+}

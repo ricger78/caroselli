@@ -1,0 +1,22 @@
+{
+  "name": "carousel-agent-starter",
+  "version": "0.2.0",
+  "description": "Starter kit: agente Claude Code che trasforma idee in caroselli Instagram brandizzati (PNG 1080x1350)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "setup": "playwright install chromium",
+    "demo": "node renderer/render.mjs renderer/esempi/riconoscere-ai.json",
+    "preview": "node renderer/preview.mjs",
+    "render": "node renderer/render.mjs",
+    "pdf": "node renderer/to-pdf.mjs",
+    "linkedin": "node tools/versione-linkedin.mjs"
+  },
+  "dependencies": {
+    "pdfkit": "^0.15.0",
+    "playwright": "^1.49.0"
+  }
+}

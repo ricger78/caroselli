@@ -1,0 +1,26 @@
+{
+  "name": "tour-tipi-slide",
+  "slides": [
+    { "type": "cover", "topicLabel": "Il tuo renderer", "hookText": "Ogni slide\nè un **tipo**.\nEccoli tutti." },
+    { "type": "content", "heading": "content", "body": "Titolo + testo corrente.\nLa slide base per spiegare un concetto.\n**Grassetto** = parola col gradiente brand, ==evidenziato== = marker acceso." },
+    { "type": "checklist", "heading": "checklist", "variant": "check", "items": [
+      "Un punto per riga, con la **spunta**",
+      "Massimo 4-5 voci per slide",
+      "Con variant \"x\": spunte in ✕"
+    ] },
+    { "type": "steps", "heading": "steps", "items": [
+      "Come checklist, ma **numerata**",
+      "Perfetta per gli how-to",
+      "Il numero lo mette il renderer"
+    ] },
+    { "type": "stat", "value": "87%", "label": "la slide **stat**: un numero enorme + una riga che gli dà senso" },
+    { "type": "quote", "quoteText": "La slide quote mette in grande una frase, tua o di qualcun altro.", "attribution": "— chi l'ha detta" },
+    { "type": "compare", "heading": "compare", "left": { "title": "Prima", "items": ["metodo vecchio", "lento", "confuso"] }, "right": { "title": "Dopo", "items": ["metodo **nuovo**", "veloce", "chiaro"] } },
+    { "type": "timeline", "heading": "timeline", "items": [
+      { "date": "Gennaio", "label": "parte l'idea" },
+      { "date": "Marzo", "label": "primo risultato", "highlight": true },
+      { "date": "Oggi", "label": "sistema a regime" }
+    ] },
+    { "type": "cta", "ctaText": "Ultima slide: la **cta**.\nDi' al lettore cosa fare adesso.", "ctaSubtext": "Salva il post" }
+  ]
+}

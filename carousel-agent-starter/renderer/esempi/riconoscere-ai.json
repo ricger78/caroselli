@@ -1,0 +1,15 @@
+{
+  "name": "riconoscere-ai",
+  "slides": [
+    { "type": "cover", "topicLabel": "Riconoscere l'AI", "hookText": "Quella foto è finta.\nE ora te lo dimostro." },
+    { "type": "content", "heading": "L'AI ormai inganna", "body": "Fa immagini sempre più vere.\nMa lascia sempre le stesse **impronte**." },
+    { "type": "checklist", "heading": "Dove si tradisce", "variant": "check", "items": [
+      "Le **mani**: dita in più, troppo lunghe o fuse",
+      "Le **scritte**: lettere a caso, parole inesistenti",
+      "Lo **sfondo**: si scioglie, si ripete, oggetti dal nulla",
+      "I **dettagli**: orecchini diversi, pelle di plastica"
+    ] },
+    { "type": "stat", "value": "5 sec", "label": "ti bastano per smascherarla, se sai **dove guardare**" },
+    { "type": "cta", "ctaText": "La prossima volta che pensi wow,\n**fermati** due secondi.", "ctaSubtext": "Salva il post" }
+  ]
+}
