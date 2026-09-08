@@ -42,6 +42,7 @@ output/<nome>/slide-01.png ... + caption
 - **renderer/to-pdf.mjs** — slide PNG → PDF unico per LinkedIn
 - **tools/versione-linkedin.mjs** — dal carosello Instagram alla sua versione LinkedIn (toglie la slide della chiamata all'azione)
 - **tools/slide-video.mjs** — mette un video dentro una slide del carosello (serve ffmpeg e `npm install sharp`)
+- **tools/pexels.mjs** — scarica una foto reale da Pexels per le slide con immagine (serve `PEXELS_API_KEY` in `.env`, vedi `.env.example`)
 - **brand-kit/brand.json** — handle, colori, font: la verità sul look
 
 ## Convenzioni

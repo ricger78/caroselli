@@ -20,7 +20,8 @@
     },
     {
       "type": "content",
-      "bgImagePath": "ca001-mindset-vs-metodo-assets/loop.png",
+      "bgImagePath": "ca001-mindset-vs-metodo-assets/loop.jpg",
+      "imgDim": 0.35,
       "heading": "Stai correndo.\nMa resti fermo.",
       "body": "Ogni corso ti dà __due settimane di carica__.\nPoi torni al punto di partenza."
     },
@@ -31,7 +32,8 @@
     },
     {
       "type": "content",
-      "bgImagePath": "ca001-mindset-vs-metodo-assets/identity.png",
+      "bgImagePath": "ca001-mindset-vs-metodo-assets/identity.jpg",
+      "imgDim": 0.45,
       "heading": "Al centro non c'è il metodo.",
       "body": "C'è __chi diventi__ mentre lo applichi.\nQuello resta. Il resto cambia ogni volta."
     },
