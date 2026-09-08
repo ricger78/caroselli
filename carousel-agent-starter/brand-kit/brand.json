@@ -1,21 +1,27 @@
 {
   "_doc": "Il tuo brand, in un file. Sostituisci i valori con i tuoi. NON cambiare i nomi delle chiavi e la struttura: il renderer li cerca così com'è. Dopo ogni modifica ri-renderizza un esempio per vedere l'effetto.",
-  "handle": "@iltuohandle",
-  "authorName": "Il Tuo Nome",
+  "handle": "@riccardogeracicoach",
+  "handles": {
+    "_doc": "handle di default (sopra) = Instagram, usato da render.mjs. Per LinkedIn, tools/versione-linkedin.mjs legge 'linkedin' qui sotto e lo scrive nel JSON -linkedin.json che genera, così le due versioni mostrano ognuna l'handle giusto senza toccare l'originale.",
+    "instagram": "@riccardogeracicoach",
+    "linkedin": "@riccardogeraci"
+  },
+  "authorName": "Riccardo Geraci",
   "colors": {
-    "_doc": "primary → secondary → accent è il gradiente del brand (titoli evidenziati, bottoni, pallini). accent colora anche frecce e callout. highlight è l'evidenziatore ==testo== (tienilo acceso e leggibile con testo scuro sopra). background/backgroundDark sono i fondi delle slide: il tema è scuro, restano scuri.",
-    "primary": "#FF3DBE",
-    "secondary": "#FF7A3D",
-    "accent": "#FFD23D",
-    "highlight": "#D6FF3D",
-    "note": "#3DFFB5",
+    "_doc": "primary → secondary → accent è il gradiente del brand (titoli evidenziati, bottoni, pallini). accent colora anche frecce e callout. highlight è l'evidenziatore ==testo== (tienilo acceso e leggibile con testo scuro sopra). background/backgroundDark sono i fondi delle slide: il tema è scuro, restano scuri. secondary è calcolato come tono di passaggio tra primary e accent per una sfumatura arancio→blu fluida: cambialo pure se preferisci un salto più netto tra i due.",
+    "primary": "#E07800",
+    "secondary": "#8D845C",
+    "accent": "#3A91B7",
+    "highlight": "#FFC24D",
+    "note": "#8FD3EC",
     "background": "#0F0F1A",
     "backgroundDark": "#070710"
   },
   "typography": {
-    "_doc": "Font di default già inclusi nel kit (open source, embeddati: Plus Jakarta Sans, Space Grotesk, Caveat). Per usare i TUOI font: crea brand-kit/fonts.css con i tuoi @font-face in base64 e scrivi qui i nomi esatti delle famiglie. Vedi brand-kit/README.md.",
-    "display": "Plus Jakarta Sans",
-    "body": "Space Grotesk",
+    "_doc": "Font custom (embeddati in brand-kit/fonts.css, niente rete): display = hook/titoli, body = testo corrente, cta = bottoni e call-to-action, handwritten = firme/note a mano (lasciato al font a mano di default del kit, non richiesto dal brief).",
+    "display": "Bebas Neue",
+    "body": "Inter",
+    "cta": "Montserrat",
     "handwritten": "Caveat"
   }
 }

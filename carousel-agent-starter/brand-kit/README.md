@@ -8,13 +8,15 @@ Tutto quello che rende i caroselli **tuoi** sta in questa cartella. Il renderer 
 
 | Chiave | Cosa controlla |
 |--------|----------------|
-| `handle` | Lo username mostrato in alto a sinistra su ogni slide (es. `@iltuonome`) |
+| `handle` | Lo username mostrato in alto a sinistra su ogni slide (es. `@iltuonome`). Di default è quello Instagram |
+| `handles.instagram / linkedin` | Handle separati per le due piattaforme: `tools/versione-linkedin.mjs` legge `handles.linkedin` e lo scrive nel JSON `-linkedin.json` che genera, così la versione LinkedIn mostra l'handle giusto senza toccare l'originale (opzionale: se assente si usa sempre `handle`) |
 | `authorName` | Il nome usato nelle firme (byline delle slide-opinione) |
 | `colors.primary / secondary / accent` | Il **gradiente brand**: colora le parole in `**grassetto**`, i bottoni, i pallini delle liste, le cornici. `accent` colora anche frecce e callout |
 | `colors.highlight` | L'evidenziatore `==testo==` (marker acceso, il testo sopra è scuro: scegli un colore chiaro) |
 | `colors.note` | Il colore del box informativo opzionale "note" |
 | `colors.background / backgroundDark` | I fondi delle slide. Il tema è **scuro**: restano scuri, puoi solo variarne la tinta |
 | `typography.display / body / handwritten` | I tre font: titoli, testo corrente, firme a mano |
+| `typography.cta` | Font della call-to-action (bottoni, riga finale). Opzionale: se assente usa `display` |
 
 Regole:
 1. **Non cambiare i nomi delle chiavi** e non cancellarne: il renderer li cerca esattamente così.

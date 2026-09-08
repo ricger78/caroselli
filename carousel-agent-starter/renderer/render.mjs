@@ -31,6 +31,7 @@ const BT = BRAND.typography || {};
 const F1 = BT.display || 'Plus Jakarta Sans';   // titoli / numeri / bottoni
 const F2 = BT.body || 'Space Grotesk';          // testo corrente
 const F3 = BT.handwritten || 'Caveat';          // firme / note a mano
+const F4 = BT.cta || F1;                        // testo/bottoni della call-to-action (fallback: display)
 // hex → rgba con alpha (per glow e ombre derivate dai colori brand)
 const A = (hex, a) => { const h = String(hex).replace('#', ''); const x = h.length === 3 ? h.split('').map((c) => c + c).join('') : h; const n = parseInt(x, 16); return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`; };
 
@@ -123,9 +124,9 @@ const CSS = `
 .quote{font-family:'${F1}';font-size:64px;font-weight:700;line-height:1.16;letter-spacing:-1.5px;color:#fff}
 .quote .mark{font-size:150px;line-height:0;font-weight:800}
 .attr{font-size:38px;font-weight:600;color:#8B86A0;margin-top:50px}
-.cta{font-family:'${F1}';font-size:62px;font-weight:800;line-height:1.08;letter-spacing:-1.5px;margin-bottom:48px;color:#fff}
+.cta{font-family:'${F4}';font-size:62px;font-weight:800;line-height:1.08;letter-spacing:-1.5px;margin-bottom:48px;color:#fff}
 .btn{display:inline-block;background:linear-gradient(105deg,${C1},${C2},${C3});color:#fff;border-radius:999px;
-  padding:24px 42px;font-size:32px;font-weight:700;font-family:'${F1}';box-shadow:0 10px 34px ${A(C2,.38)}}
+  padding:24px 42px;font-size:32px;font-weight:700;font-family:'${F4}';box-shadow:0 10px 34px ${A(C2,.38)}}
 .cta-handle{font-size:36px;font-weight:600;color:#8B86A0;margin-top:48px}
 .full{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
 /* ---- cover con SFONDO immagine (AI o foto) + overlay testo/brand controllato ---- */
@@ -245,8 +246,8 @@ const CSS = `
   background:linear-gradient(105deg,${C1},${C2},${C3});box-shadow:0 24px 70px ${A(C2,.55)}, inset 0 1px 0 rgba(255,255,255,.25)}
 .kw-cta .kc-ic{display:flex;align-items:center;justify-content:center}
 .kw-cta .kc-ic svg{width:56px;height:56px}
-.kw-cta .kc-lbl{font-family:'${F1}';font-weight:700;font-size:40px;color:rgba(255,255,255,.92)}
-.kw-cta .kc-kw{font-family:'${F1}';font-weight:800;font-size:64px;letter-spacing:1.5px;color:#fff;line-height:1;text-shadow:0 2px 14px rgba(0,0,0,.25)}
+.kw-cta .kc-lbl{font-family:'${F4}';font-weight:700;font-size:40px;color:rgba(255,255,255,.92)}
+.kw-cta .kc-kw{font-family:'${F4}';font-weight:800;font-size:64px;letter-spacing:1.5px;color:#fff;line-height:1;text-shadow:0 2px 14px rgba(0,0,0,.25)}
 .kw-sub{font-size:39px;color:#C8C6D6;font-weight:500;margin-top:30px}
 .cta-srcs-line{font-size:27px;color:#7B7790;font-weight:500;letter-spacing:.3px;margin-top:46px}
 /* firma CTA: avatar circolare + nome handwritten */

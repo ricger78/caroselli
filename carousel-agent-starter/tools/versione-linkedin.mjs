@@ -31,6 +31,16 @@ if (!fs.existsSync(file)) {
 const dati = JSON.parse(fs.readFileSync(file, 'utf8'));
 const slidePrima = (dati.slides || []).length;
 
+// handle LinkedIn: se il carosello non ne specifica già uno suo, prendi quello brand-kit/brand.json -> handles.linkedin
+if (!dati.handle) {
+  const brandPath = path.join(path.dirname(new URL(import.meta.url).pathname), '..', 'brand-kit', 'brand.json');
+  try {
+    const brand = JSON.parse(fs.readFileSync(brandPath, 'utf8'));
+    const handleLinkedIn = brand.handles?.linkedin;
+    if (handleLinkedIn) dati.handle = handleLinkedIn;
+  } catch { /* niente brand-kit: resta il default del renderer */ }
+}
+
 dati.name = (dati.name || path.basename(file, '.json')) + '-linkedin';
 dati.slides = (dati.slides || []).filter((s) => s.type !== 'cta');
 
