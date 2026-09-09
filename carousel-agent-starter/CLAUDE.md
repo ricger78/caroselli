@@ -50,6 +50,7 @@ output/<nome>/slide-01.png ... + caption
 - Ogni carosello = un **JSON** in `output/` con nome slug (`ca001-nome-tema.json`, numerazione progressiva)
 - Le slide renderizzate finiscono in `output/<name>/slide-01.png ...`
 - La caption va in un file `.txt` accanto al JSON (`ca001-nome-tema-caption.txt`)
+- **Un carosello non è finito senza la sua caption.** Generala sempre insieme al carosello (segui `references/caption-instagram.md`), anche se l'utente non la chiede esplicitamente: non aspettare che te la chieda a parte.
 - Brand kit fisso in `brand-kit/`. Modificarlo solo previa approvazione dell'utente.
 
 ## ⚠️ OBBLIGATORIO prima di ogni render
