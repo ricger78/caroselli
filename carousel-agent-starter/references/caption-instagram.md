@@ -28,6 +28,7 @@ Tre pattern che funzionano:
 
 - Riga finale che faccia salvare o commentare. Mai "Tagga un amico che...".
 - Imperativo o domanda secca: "Salva se ti serve.", "Quale ti manca?".
+- **Se la chiusura è una CTA verso un PDF/guida/risorsa gratuita, di' sempre cosa risolve, non solo come richiederla.** "Ti mando il PDF gratis" non basta: dev'essere "ti mando [la risorsa] per [risultato/problema che risolve]". Vale anche per la slide `cta` nel carosello (`ctaText`), non solo per la caption.
 
 ## Hashtag
 
