@@ -108,8 +108,8 @@ const CSS = `
 .spacer{flex:1}
 .grad{background:linear-gradient(105deg,${C1} 0%,${C2} 45%,${C3} 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .topic{text-transform:uppercase;letter-spacing:5px;font-weight:600;color:#8B86A0;font-size:30px;margin-bottom:30px}
-.hook{font-family:'${F1}';font-size:106px;font-weight:800;line-height:1.0;letter-spacing:-3px;color:#fff}
-.heading{font-family:'${F1}';font-size:68px;font-weight:800;line-height:1.05;letter-spacing:-1.5px;margin-bottom:38px;color:#fff}
+.hook{font-family:'${F1}';font-size:106px;font-weight:800;line-height:1.05;letter-spacing:0px;color:#fff}
+.heading{font-family:'${F1}';font-size:68px;font-weight:800;line-height:1.1;letter-spacing:0px;margin-bottom:38px;color:#fff}
 .body{font-size:42px;font-weight:400;line-height:1.4;color:#B9B6C9}
 .list{display:flex;flex-direction:column;gap:36px;margin-top:8px}
 .item{display:flex;gap:30px;align-items:flex-start;font-size:44px;font-weight:500;line-height:1.25;color:#EDECF4}
@@ -119,12 +119,12 @@ const CSS = `
 .dot.num{font-family:'${F1}';font-weight:800;font-size:34px}
 .list.steps{gap:30px}
 .list.steps .item{font-size:39px}
-.statv{font-family:'${F1}';font-size:220px;font-weight:800;letter-spacing:-8px;line-height:.92}
+.statv{font-family:'${F1}';font-size:220px;font-weight:800;letter-spacing:-2px;line-height:.92}
 .statl{font-size:48px;font-weight:500;color:#B9B6C9;margin-top:24px;line-height:1.25}
-.quote{font-family:'${F1}';font-size:64px;font-weight:700;line-height:1.16;letter-spacing:-1.5px;color:#fff}
+.quote{font-family:'${F1}';font-size:64px;font-weight:700;line-height:1.2;letter-spacing:0px;color:#fff}
 .quote .mark{font-size:150px;line-height:0;font-weight:800}
 .attr{font-size:38px;font-weight:600;color:#8B86A0;margin-top:50px}
-.cta{font-family:'${F4}';font-size:62px;font-weight:800;line-height:1.08;letter-spacing:-1.5px;margin-bottom:48px;color:#fff}
+.cta{font-family:'${F4}';font-size:62px;font-weight:800;line-height:1.12;letter-spacing:-.5px;margin-bottom:48px;color:#fff}
 .btn{display:inline-block;background:linear-gradient(105deg,${C1},${C2},${C3});color:#fff;border-radius:999px;
   padding:24px 42px;font-size:32px;font-weight:700;font-family:'${F4}';box-shadow:0 10px 34px ${A(C2,.38)}}
 .cta-handle{font-size:36px;font-weight:600;color:#8B86A0;margin-top:48px}
@@ -162,7 +162,7 @@ const CSS = `
   radial-gradient(120% 72% at 50% -18%, ${A(C1,.30)}, transparent 62%)}
 .bg-top .bg-pad{justify-content:flex-start}
 .bg-topic{font-family:'${F1}';font-weight:800;font-size:27px;letter-spacing:3px;text-transform:uppercase;color:${C3};margin-bottom:20px;text-shadow:0 2px 16px rgba(0,0,0,.6)}
-.bgh{font-family:'${F1}';font-weight:800;font-size:76px;line-height:1.04;letter-spacing:-2px;color:#fff;margin-bottom:26px;text-shadow:0 6px 40px rgba(0,0,0,.65)}
+.bgh{font-family:'${F1}';font-weight:800;font-size:76px;line-height:1.08;letter-spacing:0px;color:#fff;margin-bottom:26px;text-shadow:0 6px 40px rgba(0,0,0,.65)}
 .bgb{font-size:40px;line-height:1.34;font-weight:600;color:#F2F1F8;text-shadow:0 3px 24px rgba(0,0,0,.8)}
 .bgli{font-size:39px;line-height:1.3;font-weight:600;color:#F2F1F8;text-shadow:0 3px 24px rgba(0,0,0,.8);display:flex;gap:18px;margin-bottom:18px;align-items:flex-start}
 .bgli .bgdot{flex:0 0 auto;width:18px;height:18px;border-radius:50%;margin-top:14px;background:linear-gradient(135deg,${C1},${C3});box-shadow:0 0 16px ${A(C3,.7)}}
@@ -177,7 +177,7 @@ const CSS = `
 .sa-name{font-family:'${F1}';font-weight:800;font-size:36px;color:#fff;line-height:1.12}
 .sa-role{font-family:'${F1}';font-weight:700;font-size:24px;letter-spacing:2px;text-transform:uppercase;color:${C3};margin-top:3px}
 .story .bg-topic{position:relative;z-index:3;margin-bottom:18px}
-.story .heading{position:relative;z-index:3;font-size:66px;line-height:1.04;letter-spacing:-2px;max-width:88%;text-wrap:balance}
+.story .heading{position:relative;z-index:3;font-size:66px;line-height:1.08;letter-spacing:0px;max-width:88%;text-wrap:balance}
 .story .body{position:relative;z-index:3;max-width:76%;margin-top:24px;font-size:37px;line-height:1.46;color:#E9E8F2}
 .story.has-side .body{max-width:50%}
 /* immagine reale SCONTORNATA: bleed dal bordo, ancorata in basso, con velo sfumato che la fonde nel fondo scuro */
@@ -198,11 +198,11 @@ const CSS = `
 .sc-box .grad{font-size:1.18em}
 /* cover mockup: hook in alto, immagine nitida incorniciata sotto */
 .cover-mock .topic{margin-bottom:22px}
-.cover-mock .hook{font-size:90px;line-height:1.02;letter-spacing:-2.5px;margin-bottom:22px}
+.cover-mock .hook{font-size:90px;line-height:1.06;letter-spacing:0px;margin-bottom:22px}
 .cover-sub{font-size:35px;line-height:1.32;font-weight:500;color:#BDBAD0;max-width:84%;margin-top:22px;margin-bottom:40px}
 .cover-mock .window{margin-top:4px}
 /* ---- slide screenshot (immagine documentale incorniciata in una finestra brand) ---- */
-.shot-h{font-family:'${F1}';font-size:58px;font-weight:800;line-height:1.08;letter-spacing:-1.2px;margin-bottom:36px;color:#fff}
+.shot-h{font-family:'${F1}';font-size:58px;font-weight:800;line-height:1.1;letter-spacing:0px;margin-bottom:36px;color:#fff}
 .window{border-radius:28px;overflow:hidden;border:1px solid rgba(255,255,255,.14);background:#0E0E18;
   box-shadow:0 34px 90px rgba(0,0,0,.55), 0 0 0 1px ${A(C2,.10)}, 0 20px 70px ${A(C1,.24)}}
 .wbar{height:66px;display:flex;align-items:center;gap:18px;padding:0 28px;background:linear-gradient(180deg,#16161F,#0E0E18);border-bottom:1px solid rgba(255,255,255,.08)}
@@ -372,7 +372,7 @@ const CSS = `
 .kick{display:inline-flex;align-items:center;gap:16px;align-self:flex-start;background:rgba(255,255,255,.05);border:1.5px solid rgba(255,255,255,.10);border-radius:999px;padding:12px 26px 12px 12px;margin-bottom:30px}
 .kn{font-family:'${F1}';font-weight:800;font-size:30px;color:#fff;background:linear-gradient(135deg,${C1},${C3});border-radius:999px;min-width:52px;height:52px;padding:0 8px;display:flex;align-items:center;justify-content:center}
 .kl{font-family:'${F1}';font-weight:700;font-size:30px;letter-spacing:.5px;color:#CBC8DA}
-.mh{font-family:'${F1}';font-weight:800;font-size:72px;line-height:1.06;letter-spacing:-1.2px;color:#fff}
+.mh{font-family:'${F1}';font-weight:800;font-size:72px;line-height:1.1;letter-spacing:0px;color:#fff}
 .mbody{font-size:40px;font-weight:400;line-height:1.5;color:#B9B6C9}
 .bw{color:#EFEDF7;font-weight:600}
 .mcard{position:relative;border-radius:34px;overflow:hidden;box-shadow:0 22px 60px rgba(0,0,0,.5),0 0 46px ${A(C2,.16)};border:1.5px solid rgba(255,255,255,.09);flex:1 1 auto;min-height:0}
